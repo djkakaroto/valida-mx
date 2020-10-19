@@ -1,0 +1,19 @@
+{
+  "name": "valida-email",
+  "version": "1.0.0",
+  "description": "Valida se o dominio possui um MX",
+  "main": "index.js",
+  "author": "Diego Lopes",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "yup": "^0.29.3"
+  }
+}
